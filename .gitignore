@@ -130,6 +130,7 @@ celerybeat.pid
 # Environments
 .env
 .venv
+/myenv/
 env/
 venv/
 ENV/
@@ -172,3 +173,7 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# data files
+/test/
+/train/
